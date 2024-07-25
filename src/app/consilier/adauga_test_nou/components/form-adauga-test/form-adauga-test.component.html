@@ -1,0 +1,25 @@
+<form *ngIf="!componentaAdaugata" [formGroup]="testForm" (ngSubmit)="onSubmit()" class="test-form">
+    <div class="d-flex justify-content-center">
+        <p class="form-title">
+            <mat-icon>edit</mat-icon>
+            Creaza Test nou
+          </p>
+    </div>
+
+    <div class="form-group">
+      <label for="denumireTest">Denumire Test:</label>
+      <input id="denumireTest" formControlName="DenumireTest">
+    </div>
+    <div formArrayName="Intrebari" class="questions-group">
+      <div *ngFor="let intrebare of intrebariControls; let i = index" class="form-group">
+        <label for="intrebare{{i}}">Întrebare {{i + 1}}:</label>
+        <input id="intrebare{{i}}" [formControlName]="i">
+      </div>
+    </div>
+    <p style="color:grey" *ngIf="testForm.invalid">*Va rugam sa completati toate campurile</p>
+    <button type="submit" class="submit-btn" [disabled]="!testForm.valid">Crează</button>
+</form>
+
+<app-finalizare-creare-test-succes *ngIf="componentaAdaugata"></app-finalizare-creare-test-succes>
+
+  

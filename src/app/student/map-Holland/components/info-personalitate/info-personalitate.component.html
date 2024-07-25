@@ -1,0 +1,14 @@
+<app-header></app-header>
+<div id="sect1">
+    <div class="d-flex justify-content-around">
+        <div class="image-column">
+            <img src="assets/images/login.png" alt="Image Description">
+        </div>
+        <div class="info-column">
+            <div class="section d-flex flex-column" *ngFor="let sectiune of rezultat">
+                <h3><b><mat-icon>done_outline</mat-icon> {{ sectiune.denumire_sectiune }}</b></h3>
+                <p>{{ sectiune.scurta_descriere }}</p>
+            </div>
+        </div>
+    </div>
+</div>

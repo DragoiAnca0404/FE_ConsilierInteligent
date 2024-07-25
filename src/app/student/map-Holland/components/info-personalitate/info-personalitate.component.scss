@@ -1,0 +1,54 @@
+#sect1 {
+  background-image: url('~src/assets/map-Holland/green.png');
+  background-size: 100%;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.image-column {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 40%; /* Limit the width of the image column */
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.info-column {
+  flex: 2;
+  max-width: 40%; /* Limit the width of the info column */
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add background for better readability */
+  border-radius: 10px;
+}
+
+.section {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section h3 {
+  font-size: 1.5em;
+  color: #00ecd8;
+  margin: 0 0 10px;
+  text-shadow: 2px 2px #000000;
+}
+
+.section p {
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+}

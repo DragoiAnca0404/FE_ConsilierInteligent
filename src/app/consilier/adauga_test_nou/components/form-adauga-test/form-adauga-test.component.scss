@@ -1,0 +1,72 @@
+.test-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .form-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .form-title mat-icon {
+    margin-right: 8px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    flex: 1;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    flex: 2;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .questions-group {
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .submit-btn[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .submit-btn:hover:not([disabled]) {
+    background-color: #0056b3;
+  }
+  

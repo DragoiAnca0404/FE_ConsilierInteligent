@@ -1,0 +1,22 @@
+.img-box img {
+  max-width: 300px;
+  height: auto;
+}
+
+.img-box {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer; /* Schimbă cursorul la trecerea peste element */
+
+}
+
+.img-box:hover {
+  transform: translateY(-5px);
+}
+
+#sect1 {
+  background-image: url('~src/assets/map-Holland/green.png');
+  background-size: 100%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+.img-box {
+  height: 200px;
+  width: 200px;
+  filter: brightness(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-box:hover {
+  transform: translateY(-5px);
+}
+
+section.category_section.layout_padding {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+

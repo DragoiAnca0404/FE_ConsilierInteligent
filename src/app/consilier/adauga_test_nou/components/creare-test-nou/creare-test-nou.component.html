@@ -1,0 +1,39 @@
+<section class="about_section layout_padding">
+    <div class="d-flex justify-content-center">
+      <div class="heading_container">
+        <h2>
+          Creaza  sau antreneaza un test prin IA
+        </h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-9 mx-auto">
+          <div class="img-box">
+            <img src="assets/images/Consilier.png" alt="">
+          </div>
+        </div>
+      </div>
+  
+      <div class="detail-box">
+        <!-- <h2>
+            Scopul lucrarii
+          </h2>
+          <p>
+            Aplicatia utilizeaza ML.net
+          </p>-->
+        <a *ngIf="!componentaAdaugataCreareTest" (click)="adaugaComponentaCreareTest()" matTooltip="Incepe acum!">
+          <mat-icon>note_add</mat-icon> Creaza test 
+        </a>
+
+            &nbsp;
+
+        <a *ngIf="!componentaAdaugataCreareTest" (click)="adaugaComponentaCreareTest()" matTooltip="Incepe acum!!">
+          <mat-icon>settings</mat-icon>
+  Antreneaza modelul
+        </a>
+        <app-form-adauga-test *ngIf="componentaAdaugataCreareTest"></app-form-adauga-test>
+  
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,31 @@
+<section class="about_section layout_padding">
+  <div class="d-flex justify-content-center">
+    <div class="heading_container">
+      <h2>
+        Explorează chestionarele noastre </h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-lg-9 mx-auto">
+        <div class="img-box">
+          <img src="assets/images/about.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-box">
+      <!-- <h2>
+          Scopul lucrarii
+        </h2>
+        <p>
+          Aplicatia utilizeaza ML.net
+        </p>-->
+      <a *ngIf="!componentaAdaugata" (click)="adaugaComponenta()" matTooltip="Incepe testul!">
+        <mat-icon>play_circle_outline</mat-icon>
+      </a>
+      <app-select-quiz-section *ngIf="componentaAdaugata"></app-select-quiz-section>
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+.loading-container {
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+::ng-deep .ngx-spinner {
+  background-color: rgba(17, 17, 17, 0.8);
+}
+
+.large {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
