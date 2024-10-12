@@ -1,3 +1,48 @@
+
+# Career Guidance App
+
+## Short Description
+
+The **Career Guidance App** is designed to assist students in identifying suitable career options through a structured approach. The app includes the following key features:
+
+- Two roles are included in the app's structure: **Guide** and **Student**.
+- JWT tokens are generated when users log in, ensuring secure authentication.
+- A three-layer architecture is implemented using **AutoMapper** in the **ASP.NET Core API**.
+- Students fill out quizzes that identify the best job options for them.
+- Survey questions leverage **artificial intelligence** to provide personalized guidance.
+- The two essential stages in implementing AI involve using the **ML.NET** framework to predict results and train models.
+
+## Key Features
+
+- **User Roles:**
+  - **Guide:** Provides support and insights to students regarding career options.
+  - **Student:** Engages with quizzes to explore potential career paths.
+
+- **Authentication:**
+  - Secure login process with JWT token generation for user sessions.
+
+- **Architecture:**
+  - Utilizes a three-layer architecture for better organization and separation of concerns.
+  - **AutoMapper** is employed for efficient object mapping between layers.
+
+- **Quizzes:**
+  - Interactive quizzes that help students discover the most suitable job options.
+  - Questions are powered by artificial intelligence for enhanced accuracy in career predictions.
+
+- **AI Implementation:**
+  - Incorporates **ML.NET** for:
+    - Predicting results based on student responses.
+    - Training machine learning models for continuous improvement in accuracy and recommendations.
+
+## Technologies
+- **ASP.NET Core API**
+- **AutoMapper**
+- **ML.NET**
+
+## Summary
+The **Career Guidance App** provides an innovative platform for students to explore career opportunities based on their interests and skills, guided by advanced technologies and structured methodologies.
+
+
 ![Screenshot 2024-10-12 180631](https://github.com/user-attachments/assets/3cd2885b-e517-4f80-ac7b-d4e883c813c2)
 ![Screenshot 2024-10-12 180644](https://github.com/user-attachments/assets/bf05e6ca-397b-4f69-97ff-cbab83149011)
 ![1](https://github.com/user-attachments/assets/3fa22714-4c70-451a-8c3e-06ff10425e71)
